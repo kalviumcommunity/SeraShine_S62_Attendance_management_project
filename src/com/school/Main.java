@@ -21,10 +21,12 @@ public class Main {
             if (student != null) student.displayDetails();
         }
 
+
         System.out.println("\nAvailable Courses:");
         for (Course course : courses) {
             if (course != null) course.displayDetails();
         }
+        
         System.out.println("\nSession 2: Core Domain Modelling Complete.");
     }
 }
